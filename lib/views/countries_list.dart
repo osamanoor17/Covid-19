@@ -19,6 +19,7 @@ class _CountriesListState extends State<CountriesList> {
     return Scaffold(
         backgroundColor: Colors.grey.shade100,
         appBar: AppBar(
+          title: const Text("Countries List"),
           elevation: 0,
           backgroundColor: Colors.grey.shade100,
         ),
@@ -26,7 +27,7 @@ class _CountriesListState extends State<CountriesList> {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(12.0),
                 child: TextFormField(
                   controller: _searchController,
                   decoration: InputDecoration(

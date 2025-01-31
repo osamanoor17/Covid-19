@@ -15,7 +15,8 @@ class DetailsScreen extends StatefulWidget {
       test;
 
   DetailsScreen(
-      {required this.image,
+      {super.key,
+      required this.image,
       required this.name,
       required this.totalCases,
       required this.totalDeaths,
@@ -33,14 +34,14 @@ class _DetailsScreenState extends State<DetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white70,
+        // backgroundColor: Colors.white70,
         appBar: AppBar(title: Text(widget.name)),
         body: Padding(
           padding: const EdgeInsets.all(8.0),
           child: SingleChildScrollView(
             child: Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
                 Stack(
