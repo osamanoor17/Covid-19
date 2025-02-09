@@ -46,7 +46,7 @@ lib/
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/covid-19-flutter-app.git
+    git clone https://github.com/osamanoor17/covid-19-flutter-app.git
     ```
 2. Navigate into the project directory:
     ```bash
